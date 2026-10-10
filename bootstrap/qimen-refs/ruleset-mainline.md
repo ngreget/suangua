@@ -1,5 +1,6 @@
-# `mainline-cn-v1` 默认规则
+﻿# `mainline-cn-v1` 默认规则
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../../LICENSE)）；参考传统：《奇门遁甲》主规则集整理。
 这个 skill 的正式排盘只使用这一套默认规则，不在正式计算里混用别的说法。
 
 ## 适用范围

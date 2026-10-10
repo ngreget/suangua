@@ -1,5 +1,6 @@
-# Third-party notices and data provenance
+﻿# Third-party notices and data provenance
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](LICENSE)）；本文件即为完整的第三方依赖声明。
 This file records bundled libraries and datasets that materially affect the local runtime. It is not a substitute for each upstream license text; maintainers must verify the cited upstream revision before redistributing a release archive.
 
 ## Runtime libraries

@@ -1,5 +1,6 @@
-# Python offline-oracle helpers
+﻿# Python offline-oracle helpers
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../LICENSE)）；脚本目录说明，项目原创。
 The Python files in this directory are installed by the complete setup so maintainers can compare selected results with independent libraries and historical helper implementations.
 
 They are **not** an Agent or Dashboard calculation source.

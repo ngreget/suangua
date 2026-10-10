@@ -1,5 +1,6 @@
-# EVOLUTION.md — 架构演进记录
+﻿# EVOLUTION.md — 架构演进记录
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](LICENSE)）；完整来源说明见 [SKILL.md](SKILL.md#-来源与致谢)。
 ## 2026-08-09：确立本地直调后的演进边界
 
 ### 决策

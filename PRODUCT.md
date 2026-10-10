@@ -1,5 +1,6 @@
-# Product
+﻿# Product
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](LICENSE)）；完整来源说明见 [SKILL.md](SKILL.md#-来源与致谢)。
 ## Register
 
 product

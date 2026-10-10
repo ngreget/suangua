@@ -1,5 +1,6 @@
-# Ziwei Workflow (固定顺序)
+﻿# Ziwei Workflow (固定顺序)
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../../LICENSE)）；参考传统：《紫微斗数全书》排盘与解读工作流。
 ## 0. Input Check
 
 - **⏰ 先获取当前时间**（用于大限定位）

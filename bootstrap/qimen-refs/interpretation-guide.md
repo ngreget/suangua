@@ -1,4 +1,4 @@
----
+﻿---
 name: qimen-dunjia
 description: >
   奇门遁甲排盘、解盘、择时、方位判断与理论教学技能。用户明确提到奇门遁甲、时家奇门、
@@ -9,6 +9,7 @@ compatibility: Requires Python 3.11+, lunar_python, and tzdata; run scripts/qime
 
 # 奇门遁甲技能
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../../LICENSE)）；参考传统：《奇门遁甲》《奇门遁甲统宗》《奇门法窍》公版古籍。
 本技能面向普通求测者，默认使用 `mainline-cn-v1` 规则集。工作方式是：
 
 1. 先访谈，确认用户到底要看什么、看哪一刻、想判断什么。

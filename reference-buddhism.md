@@ -1,7 +1,8 @@
-# 佛教心性知识体系（reference-buddhism）
+﻿# 佛教心性知识体系（reference-buddhism）
 
 > 本文件为 chinese-traditional-wisdom-ai-agent-workflow 的佛教知识参考。按需读取，用于"佛教"维度的分析。
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](LICENSE)）；参考体系：佛教心性知识公开译注与经典《楞严经》《金刚经》《心经》等公版古籍。
 ---
 
 ## 一、核心概念

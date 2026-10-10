@@ -1,8 +1,9 @@
-# 案例记录模板
+﻿# 案例记录模板
 
 > 复制此模板创建新案例。严格遵守 RULES.md 隐私规则：脱敏处理所有个人信息。
 > 案例文件命名：`CASE-YYYYMMDD-NNN.md`（如 CASE-20260628-001.md）
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../LICENSE)）；咨询案例脱敏记录模板，项目原创。
 ---
 
 ```markdown

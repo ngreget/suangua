@@ -1,5 +1,6 @@
-# MCP Tool Matrix
+﻿# MCP Tool Matrix
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../LICENSE)）；工具参数速查表，项目原创整理。
 ## Core Tools
 
 | Tool                   | Purpose               | Required Input                                               | Optional Input                                                                                              | Key Output Fields                                                                                       | Core Source                                                                  |

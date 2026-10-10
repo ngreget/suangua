@@ -1,8 +1,9 @@
-# 术数解读参考资料索引（Numerologist Skills 合并）
+﻿# 术数解读参考资料索引（Numerologist Skills 合并）
 
 > 以下参考资料来自外部术数技能包合并，属传统解读经验规则，不进入本地引擎 claims 校验。
 > 引用时须标明为传统经验参考，与引擎排盘事实分开表述。
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../LICENSE)）；参考资料总索引，项目原创整理。
 ## 八字参考资料（bazi-refs/）
 
 | 文件 | 内容 | 何时读取 |

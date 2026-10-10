@@ -1,5 +1,6 @@
-# DaYun Workflow (固定顺序)
+﻿# DaYun Workflow (固定顺序)
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../../LICENSE)）；参考传统：《子平真诠》《滴天髓》大运流年体系。
 ## 0. Input Check
 
 - **⏰ 先获取当前时间**（用于定位当前大运步）

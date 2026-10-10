@@ -1,7 +1,8 @@
-# 中医融合知识体系（reference-tcm）
+﻿# 中医融合知识体系（reference-tcm）
 
 > 本文件为 chinese-traditional-wisdom-ai-agent-workflow 的中医知识参考。按需读取，用于"中医"维度的分析。
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](LICENSE)）；参考传统：《黄帝内经》《伤寒论》《金匮要略》《难经》等公版古籍。
 ---
 
 ## 一、中医核心理论

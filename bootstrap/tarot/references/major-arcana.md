@@ -1,5 +1,6 @@
-# Major Arcana
+﻿# Major Arcana
 
+> **📚 来源**：Rider-Waite-Smith 塔罗 22 张大阿卡纳牌义（公共领域图像描述）；翻译整理者：本项目；许可证：MIT（见 [LICENSE](../../LICENSE)）。
 22 cards, numbered 0–21, representing the great themes of human experience and the spiritual journey known as the Fool's Journey.
 
 ## Table of Contents

@@ -1,9 +1,10 @@
-# 全量一次性可视化报告模板
+﻿# 全量一次性可视化报告模板
 
 > 使用此模板在文字报告之外，生成一份**全量静态 HTML 可视化报告**，覆盖所有分析模块。
 > 不含交互式控件、不含输入面板。用户双击文件即可在浏览器中查看。
 > 保存为 `visual-report-{脱敏标识}.html`。
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../LICENSE)）；可视化报告模板，项目原创。
 ## 使用方式
 
 1. 仅从本次本地 `ToolEnvelope.data` 或真太阳时 `TrueSolarTimeResolution` 提取数据，填入下方 HTML 模板的 `REPORT_DATA` 对象；模型不得自行计算或补全盘面字段。

@@ -1,5 +1,6 @@
-# Minor Arcana
+﻿# Minor Arcana
 
+> **📚 来源**：Rider-Waite-Smith 塔罗 40 张小阿卡纳牌义（公共领域图像描述）；翻译整理者：本项目；许可证：MIT（见 [LICENSE](../../LICENSE)）。
 56 cards, divided into 4 suits, each containing 14 cards (Ace through 10 + Page / Knight / Queen / King).
 
 ## Table of Contents

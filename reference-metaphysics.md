@@ -1,7 +1,8 @@
-# 玄学五术知识体系（reference-metaphysics）
+﻿# 玄学五术知识体系（reference-metaphysics）
 
 > 本文件为 chinese-traditional-wisdom-ai-agent-workflow 的玄学知识参考。按需读取，用于"命/卜/相"维度的分析。
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](LICENSE)）；参考传统：《周易》《周易参同契》《黄庭经》等公版古籍与五术通识。
 ---
 
 ## 一、山（修仙与养生）

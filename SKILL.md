@@ -138,3 +138,34 @@ pnpm eval:skill
 | 断性癖/偏好/应期专题 | 总流程 `bootstrap/xingpi-guide.md`；紫微 `bootstrap/ziwei-refs/xingpi-notes.md`；八字 `bootstrap/bazi-refs/xingpi-notes.md`；六壬 `bootstrap/daliuren-refs/xingpi-notes.md`；塔罗 `bootstrap/tarot/xingpi-notes.md` |
 
 reference 文件和古籍知识库只用于解释框架与引用，不能代替本次本地计算。
+
+## 🔑 鉴权
+
+本 Skill 完全离线运行，**不需要任何 API Key、账号、Token 或远程登录**：
+
+- **本地引擎**：32 个 TypeScript 工具与 Python 离线脚本都在 `apps/visual/` 与 `scripts/` 内执行，无外部服务调用。
+- **知识库**：`knowledge-base/` 与 `bootstrap/` 全部是本地 Markdown/JSON，随 Skill 打包分发。
+- **数据源**：`apps/visual/src/legacy/*.json` 数据文件在仓库内，逐项见 `THIRD_PARTY_NOTICES.md`。
+- **可选依赖**：`scripts/setup.bat` / `scripts/setup.sh` 安装时拉取 MIT 许可的第三方 npm 包（`lunar-typescript`、`iztro`、`3meta` 等）；安装后运行时无网络。
+
+**隐私边界**：不持久化完整生辰、精确地点、姓名或原始咨询问题；Dashboard 本地历史默认不保存，保存前强制脱敏预览。详见 `RULES.md`。
+
+## 📚 来源与致谢
+
+本 Skill 的知识内容来自四大类来源，逐项声明如下：
+
+| 类别 | 覆盖范围 | 主要出处 | 许可证/公版状态 |
+|---|---|---|---|
+| **传统古籍原文** | 周易、梅花、紫微、奇门、大六壬、五运六气、风水典籍 | 《周易》《梅花易数》《紫微斗数全书》《奇门遁甲》《黄帝内经》《葬书》《阳宅三要》《雪心赋》《天玉经》《都天宝照经》等公版古籍 | 原著作者逝世逾百年，按《著作权法》第 23 条进入公共领域 |
+| **现代译注与教材** | 塔罗牌义、占星基础、中医体质、儒释道通识 | Rider-Waite-Smith 塔罗体系、现代塔罗/占星英文教材、公开中文译注 | 本文档的翻译、注释、结构组织遵循项目 LICENSE（MIT） |
+| **本地引擎实现** | 32 个 TypeScript 工具与 Python 离线脚本 | 项目原创实现，依赖 MIT 许可第三方库 | 项目原创部分遵循 LICENSE（MIT） |
+| **数据集** | 康熙字典笔画、字义库、周易文本 JSON、解梦词典、风水古籍全文 | `babyname/fate`（MIT）、`kentang2017/kintaiyi`（MIT，rev `a8f83945`）、`oswin-hu/zhougong_dream`（MIT）等 | 逐项见 `THIRD_PARTY_NOTICES.md` 与 `knowledge-base/manifest.generated.json` |
+
+**逐项声明**：
+- 每个 `bootstrap/`、`knowledge-base/`、`templates/` 下的 Markdown 文件在文件顶部标注「📚 来源」块，说明内容类型、原始出处、整理者与许可证状态。
+- 引擎实现的数据源（JSON、字典、文本索引）在 `THIRD_PARTY_NOTICES.md` 逐项列出 upstream revision、license、本地校验和。
+- 完整运行库依赖版本固定在 `apps/visual/pnpm-lock.yaml`。
+
+**许可证声明**：本 Skill 的代码、文档组织、注释与结构遵循 MIT License（见 `LICENSE`）；引用的古籍原文属于公共领域，本文档的整理、排版与结构化属于本项目原创，遵循同一 MIT 许可证。
+
+完整第三方声明见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)；数据源清单见 [`knowledge-base/manifest.generated.json`](knowledge-base/manifest.generated.json)。

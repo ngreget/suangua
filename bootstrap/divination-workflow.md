@@ -1,10 +1,11 @@
----
+﻿---
 name: divination
 description: Structured fortune-telling workflow skill using MCP tools. Use when users ask for divination, 八字/四柱, 六爻, 紫微斗数, 塔罗, 大运, 运势/流年, or want standardized解读流程 (e.g., 八字先看身强弱与喜用神再看大运流年). Enforce fixed analysis order, call the right MCP tool, and produce actionable interpretations.
 ---
 
 # Mingli MCP Assistant
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../LICENSE)）；参考传统：五术占问通用工作流整理。
 ## Overview
 
 Use this skill to deliver consistent,流程化命理解读 for end users.

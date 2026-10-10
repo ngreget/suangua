@@ -1,5 +1,6 @@
-# Tarot Spread Reference
+﻿# Tarot Spread Reference
 
+> **📚 来源**：塔罗常见摊开方式整理（公开塔罗教材）；整理者：本项目；许可证：MIT（见 [LICENSE](../../LICENSE)）。
 ## Table of Contents
 
 - [Single Card](#single-card)

@@ -1,5 +1,6 @@
-# Tarot Interpretation Rules
+﻿# Tarot Interpretation Rules
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](../../LICENSE)）；参考体系：Rider-Waite-Smith 塔罗传统与现代塔罗教材。
 ## Table of Contents
 
 - [Elemental Interactions](#elemental-interactions)

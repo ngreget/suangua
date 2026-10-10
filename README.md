@@ -262,3 +262,61 @@ templates/                     # 报告模板
 SKILL.md                       # Skill 主入口
 RULES.md                       # 安全与伦理规则
 ```
+
+
+---
+
+## 📚 来源与致谢
+
+本项目整合了中国传统典籍、现代占卜体系与塔罗传统、以及现代开源工程项目，来源清晰，尊重原作版权。
+
+### 1. 传统典籍（公共领域）
+
+以下均为公共领域的传统古籍，不受版权限制：
+
+- **易经类**：《周易》、《周易彖象传》（上古口传，战国成书）
+- **风水类**：《葬书》（杨筠松，唐代）；《葬书外篇》（托名杨筠松）
+- **八字类**：《子平真诠》（沈孝瞻，清代）；《滴天髓》（京图先生，宋代）；《穷通宝鉴》（余春台，明代）；《渊海子平》（徐大升，宋代）；《三命通会》（万民英，明代）
+- **奇门类**：《奇门遁甲》（历代积传，成书于宋明）；《奇门遁甲统宗》（王阜臣，明代）
+- **大六壬类**：《大六壬大全》；《壬学传真》
+- **紫微类**：《紫微斗数全书》；《紫微斗数讲义》
+- **中医类**：《黄帝内经》（托名黄帝与岐伯）；《伤寒论》（张仲景，东汉）；《难经》（扁鹊托名）
+
+### 2. 现代译注与改编
+
+- **Rider-Waite-Smith 塔罗**：主阿卡纳 22 张牌义整理，基于 Rider-Waite-Smith 塔罗体系（公共领域图像描述）
+- **小阿卡纳 40 张**：传统含义，基于 Rider-Waite-Smith 体系（公共领域图像描述）
+- **塔罗牌阵**：传统牌阵（圣三角、凯尔特十字、过去-现在-未来、健康牌阵、爱情牌阵）
+
+### 3. 本地引擎与开源依赖
+
+- `apps/visual` 本地 TypeScript 计算引擎（本项目）
+- Node.js v24.12.0、pnpm v10.26.1、TypeScript v6.0.3
+- `lunar-typescript`（农历库，ISC 许可）
+- `iztro`（紫微斗数库，MIT 许可）
+- `3meta` / `3dmeta`（传统历法库，公开源）
+- Playwright（E2E 测试，Apache 2.0）
+- 完整第三方声明：见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)
+
+### 4. 数据集
+
+- `knowledge-base/fengshui/` 传统风水典籍（公共领域）
+- `references/` 传统经典（公共领域）
+- `templates/` 项目原创的咨询与报告模板（MIT）
+- `skill-evals/` 项目原创的行为评测（MIT）
+
+### 授权声明
+
+本项目完整代码遵循 **MIT License**（见 [`LICENSE`](LICENSE)）。所有传统典籍均为公共领域，现代译注与翻译由本项目提供并遵循 MIT，开源依赖保留其原始许可（详见 `THIRD_PARTY_NOTICES.md`）。
+
+---
+
+## MIT License
+
+Copyright © 2024 Chinese Traditional Wisdom Skill Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

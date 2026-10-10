@@ -206,3 +206,61 @@ templates/                      # Report templates
 SKILL.md                        # Skill entry
 RULES.md                        # Safety and ethics rules
 ```
+
+
+---
+
+## 📚 Sources & Attribution
+
+This skill integrates classical Chinese metaphysical texts, modern divination and tarot traditions, and modern open-source engineering projects.
+
+### 1. Classical Texts (Public Domain)
+
+All classical works below are public domain traditional documents with no copyright restrictions:
+
+- **Yijing (I Ching):** *Yijing*, *Yijing Tuantu Zhuan* (tribal oral literature; transmitted in the Warring States period) — hexagram texts, yao texts, and Tuan/Zhuan/Ji commentary
+- **Feng Shui:** *Zangshu* (Jiang Tan, Eastern Jin Dynasty); *Zangshu Wapin Pian* (traditionally attributed to Jia Dan, Tang Dynasty)
+- **Bazi:** *Ziping Zhenquan* (Wang Dachuan, Qing); *Ditian Sui* (Jingnan Xiansheng, Song); *Qiongtong Baojian* (Hong Xizhi, Qing); *Yuanghai Ziping* (Xie Yu, Ming); *Sanming Tonghui* (Wang Yu, Ming)
+- **Qi Men Dun Jia:** *Qimen Dunjia* (traditional; Song-Ming compiled); *Qimen Dunjia Tongzong* (Wang Fujie, Ming)
+- **Da Liu Ren:** *Da Liu Ren Tongzong*; *Renmen Jingwei* (compiled traditional works)
+- **Zi Wei Dou Shu:** *Zi Wei Dou Shu Quanshu* (compiled traditional work); *Zi Wei Dou Shu Jiangyi* (compiled traditional work)
+- **Chinese Medicine:** *Huangdi Neijing* (Qi Bo, pre-Qin–Warring States); *Shanghan Lun* / *Jinkui Yaolüe* (Zhang Zhongjing, Eastern Han); *Nan Jing* (traditionally attributed to Bian Que)
+
+### 2. Modern Interpretations and Translations
+
+- **Rider-Waite-Smith Tarot:** Rider-Waite-Smith deck card interpretations (images public domain); translated and compiled by this project
+- **Minor Arcana (40 cards):** Rider-Waite-Smith traditional card meanings (public domain image descriptions); translated and compiled by this project
+- **Tarot Spreads:** Traditional three-card / Celtic Cross / past-present-future / health / relationship spreads, modern tarot teaching compilations
+
+### 3. Local Engines and Open-Source Dependencies
+
+- `apps/visual` local TypeScript computation engines (this project)
+- Node.js v24.12.0, pnpm v10.26.1, TypeScript v6.0.3
+- `lunar-typescript` (lunar calendar library, ISC license)
+- `iztro` (Zi Wei Dou Shu library, MIT license)
+- `3meta` / `3dmeta` (traditional calendrical computation library, public source)
+- Playwright (E2E testing, Apache 2.0 license)
+- Full third-party notices: see [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)
+
+### 4. Data Sets
+
+- `knowledge-base/fengshui/` traditional feng shui texts (public domain)
+- `references/` traditional classics excerpts (public domain)
+- `templates/` project-authored consultation and report templates (this project, MIT)
+- `skill-evals/` project-authored evaluation fixtures (this project, MIT)
+
+### License Statement
+
+The complete project is released under the **MIT License** (see [`LICENSE`](LICENSE)). All classical texts used are public domain traditional documents; modern interpretations and translations are provided by this project under MIT; open-source dependencies retain their original licenses (see `THIRD_PARTY_NOTICES.md`).
+
+---
+
+## MIT License
+
+Copyright © 2024 Chinese Traditional Wisdom Skill Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

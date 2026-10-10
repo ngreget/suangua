@@ -1,7 +1,8 @@
-# AI 执行指南
+﻿# AI 执行指南
 
 > AI Agent 必须先读 [SKILL.md](SKILL.md) 与 [RULES.md](RULES.md)。本项目采用 **Skill → 本地 Engine/CLI → ToolEnvelope → 本地 claims 校验 → 语言化解读** 的直调架构。
 
+> **📚 来源**：本 Skill 项目维护文档，遵循 MIT License（见 [LICENSE](LICENSE)）；完整来源说明见 [SKILL.md](SKILL.md#-来源与致谢)。
 ## 1. 就绪检查
 
 ```text
